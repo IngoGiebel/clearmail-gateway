@@ -1,0 +1,58 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# IDE - VS Code
+.vscode/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local configuration (secrets!)
+application.yml
+application-*.yml
+!application.yml.example
+
+# Private instance directory (never commit!)
+# Located at ~/.clearmail-gateway/ but just in case
+.clearmail-gateway/
+
+# Test output
+test-results/
+test-output/
+
+# Kotlin compiler
+*.kotlin_module
+
+# Coverage reports
+jacoco/
+coverage/
+*.exec
